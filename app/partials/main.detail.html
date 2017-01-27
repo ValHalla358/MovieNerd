@@ -1,0 +1,22 @@
+<div ui-view>
+    <a ui-sref="main">Clear for search</a>
+    <div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel panel-heading ">{{md.movieDetails.Title}}</div>
+                <div class="panel-body">
+                    <image src="{{md.movieDetails.Poster}}" />
+                    <div>Filmed in {{md.movieDetails.Year}}</div>
+                    <div>Rated {{md.movieDetails.Rated}}</div>
+                    <div>{{md.movieDetails.Genre}}</div>
+                    <div>Directed by {{md.movieDetails.Director}}</div>
+                    <div>Written by {{md.movieDetails.Writers}}</div>
+                    <div>Starring {{md.movieDetails.Actors}}</div>
+                    <div>{{md.movieDetails.Plot}}</div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
